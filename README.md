@@ -32,3 +32,6 @@ FreeRTOS manages switching between tasks
 ```bash
 make        # build
 make st-flash  # flash via ST-Link
+```
+##Screen
+https://github.com/user-attachments/assets/690d2554-d32e-4874-8ba9-a73ef0b94e65
