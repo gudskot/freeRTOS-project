@@ -1,6 +1,6 @@
 # FreeRTOS LED Blinker for STM32L053R8
 
-A bare-metal FreeRTOS project for STM32L053 that controls LEDs and demonstrates tasks and timers.
+A bare-metal FreeRTOS project for STM32L053 that controls LEDs and demonstrates basic task creation and scheduling.
 
 ## Features
 - Uses FreeRTOS for multitasking
