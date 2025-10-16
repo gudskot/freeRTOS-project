@@ -7,14 +7,14 @@ void _init(void) {};
 void Task1(void *pvParameters) {
     while(1) {
         GPIOA->ODR ^= (1 << 0);
-        vTaskDelay(pdMS_TO_TICKS(100));
+        vTaskDelay(60);
     }
 }
 
 void Task2(void *pvParameters) {
     while(1) {
         GPIOA->ODR ^= (1 << 1);
-        vTaskDelay(pdMS_TO_TICKS(100));
+        vTaskDelay(60);
     }
 }
 
